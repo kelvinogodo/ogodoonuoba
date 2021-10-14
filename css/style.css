@@ -271,7 +271,6 @@ nav{
     font-weight: 400;
     animation-name: texthead-animation;
     animation-duration: 1s;
-    text-align: left;
     letter-spacing: .5px;
 }
 
@@ -606,7 +605,6 @@ footer{
        font-size: .8rem;
        line-height: 25px;
        width: 90%;
-       text-align: left;
    }
    .our-history-link{
        z-index: 20;

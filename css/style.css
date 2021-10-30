@@ -681,6 +681,10 @@ footer{
        justify-content: space-between;
        margin: 3px;
    }
+   .copywrite{
+       font-size: .6rem;
+       letter-spacing: .5px;
+   }
    .social-icons{
     height: 20px;
     width: 20px;

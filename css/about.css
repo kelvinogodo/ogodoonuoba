@@ -142,7 +142,7 @@ footer{
         clip-path: none;
         display: flex;
         align-items: center;
-        background-color: rgba(255, 255, 255, 0.938);
+        background-color: rgba(6, 6, 82, 0.781);
     }
     .text-holder1 , .text-holder2{
         margin-left: 20px;
@@ -154,13 +154,13 @@ footer{
     .text-holder2 h1{
         width: 100%;
        font-size: .8rem;
-       color: black;
+       /* color: white; */
        letter-spacing: normal;
     }
     .text-holder1 h1{
         width: 100%;
         font-size: .8rem;
-        color: black;
+        /* color: black; */
         letter-spacing: normal;
     }
     .recent-posts h1{

@@ -119,7 +119,7 @@ justify-content: center;
     background-position: top;
     background-repeat: no-repeat;
     object-fit: cover;
-    height: 70vh;
+    height: 90vh;
     position: relative;
     width: 100%;
     display: flex;
@@ -128,7 +128,7 @@ justify-content: center;
 }
 .landpage::after{
     position: absolute;
-    height: 70vh;
+    height: 90vh;
     width: 100%;
     background-color:rgb(85, 84, 84);
     content: " ";
@@ -571,7 +571,7 @@ footer{
     padding-bottom: 0%;
     margin-top: 100px;
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1024px){
     body{
         position: relative;
     }
@@ -597,9 +597,12 @@ footer{
         background-color: white;
         margin: 3px;
     }
-    nav{
+    .navbar{
         width: 0%;
         overflow-x: hidden;
+    }
+    .search-container{
+        display: none;
     }
     .menu-list{
         width: 0%;
@@ -705,6 +708,7 @@ footer{
    }
    .our-history-link{
        z-index: 20;
+       font-size: 1rem;
    }
    .landpage::after{
        height: 100%;
@@ -749,6 +753,21 @@ footer{
    .my-carousel{
        height: 50vh;
        margin: 0%;
+       width: 100%;
+   }
+   .history-brief{
+       flex-direction: column;
+       height: auto;
+       padding: 10px;
+   }
+   .history-brief-text{
+       width: 100%;
+   }
+   .history-brief-text h1{
+       width: 90%;
+       font-size: .8rem;
+   }
+   .history-image-container{
        width: 100%;
    }
    .advert-section{

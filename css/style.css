@@ -34,7 +34,7 @@ header{
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background-color: rgba(202, 202, 216, 0.87);
+    background-color: white;
     padding: 2px;
    cursor: pointer;
 }
@@ -55,21 +55,21 @@ header{
     display: none;
     overflow-x: hidden;
 }
-nav{
+.navbar{
     display: flex;
     align-items: center;
-    width:60%;
-    justify-content: flex-end;
+    width:80%;
+    justify-content: center;
     text-align: center;
     height: 100%;
     padding: 0%;
-    margin-top: 10px;
+   
 }
 .nav-list{
     display: flex;
     width: 70%;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
     height: 100%;
 }
@@ -78,12 +78,38 @@ nav{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: capitalize;
     font-size:.9rem;
-    color: #ddd;
+    color: white;
     padding-bottom: 4px;
     letter-spacing: 1px;
+
 }
 .nav-list a:hover{
     color: rgba(47, 47, 253, 0.808);
+}
+.search-container{
+width: 40%;
+margin-left: 50px;
+margin-right: 30px;
+display: flex;
+border: 1px solid white;
+height: 42px;
+align-items: center;
+justify-content: center;
+}
+.search-bar{
+    width: 80%;
+    height: 40px;
+    border: none;
+    outline: none;
+    text-indent: 10px;
+}
+.search-btn{
+    width: 20%;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(6, 6, 82);
+    
 }
 .main-container{
     height: auto;
@@ -140,7 +166,7 @@ nav{
 .form-container{
     display: flex;
     width: 30%;
-    height: 70%;
+    height: 75%;
     flex-direction: column;
     background:rgba(255, 255, 255, 0.87);
     align-items: center;
@@ -153,7 +179,7 @@ nav{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 80%;
+    height: 100%;
   
 }
 

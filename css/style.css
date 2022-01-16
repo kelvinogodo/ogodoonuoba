@@ -130,7 +130,7 @@ justify-content: center;
     position: absolute;
     height: 90vh;
     width: 100%;
-    background-color:rgb(85, 84, 84);
+    background-color:rgb(53, 53, 53);
     content: " ";
     mix-blend-mode: overlay;
 }

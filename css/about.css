@@ -117,16 +117,7 @@
     font-weight: 400;
     letter-spacing: 2px;
 }
-footer{
-    background-color: rgb(6, 6, 82);
-    margin-top: 0%;
-    height: 10vh;
-    width: 100%;
-    background-image: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 @media screen and (max-width:1024px) {
     .profile-container{
         height: auto;
